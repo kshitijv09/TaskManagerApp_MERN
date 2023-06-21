@@ -89,6 +89,9 @@
   color: black;
 }
 @media (max-width: 830px) {
+  .task-container {
+    height: 100vw;
+  }
   .task-btn {
     height: 4vw;
     width: 70%;
@@ -105,7 +108,8 @@
   }
   .add-btn {
     width: 50%;
-    /* font-size: 8vw; */
+    height: 40%;
+    font-size: 3vw;
   }
 }
 @media (max-width: 500px) {
@@ -136,5 +140,7 @@
   }
   .add-btn {
     width: 50%;
+    height: 40%;
+    font-size: 3vw;
   }
 }

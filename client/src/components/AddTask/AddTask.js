@@ -54,7 +54,7 @@ export default function AddTask(props) {
           </Form.Group>
           <Form.Group id="completed">
             <Form.Label>Completion Status</Form.Label>
-            <Form.Control type="text" ref={completed} required />
+            <Form.Control type="dropdown" ref={completed} required />
           </Form.Group>
           <Button className="w-100" type="submit">
             Create Task

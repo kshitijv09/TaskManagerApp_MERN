@@ -23,7 +23,7 @@ export default function Nav(props) {
           <h1 style={{ fontSize: "1.8em" }}> TASK MANAGER APP</h1>
         </div>
         <div>
-          <h3 className="text">Welcome, {localStorage.getItem("username")}</h3>
+          <h3 className="text">Welcome {localStorage.getItem("username")}</h3>
         </div>
       </div>
       <div className="logout-container" onClick={handleLogout}>
